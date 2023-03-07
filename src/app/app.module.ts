@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
 import { ParentDataComponent } from './component/parent-data/parent-data.component';
 import { DiretivesComponent } from './components/diretives/diretives.component';
+import { IfRenderComponent } from './components/if-render/if-render.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponentComponent,
     ParentDataComponent,
-    DiretivesComponent
+    DiretivesComponent,
+    IfRenderComponent
   ],
   imports: [
     BrowserModule,
