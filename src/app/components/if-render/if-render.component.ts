@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./if-render.component.scss']
 })
 export class IfRenderComponent {
+  canShow:boolean = true
+  name = 'Matheus'
+
+  constructor() {}
+
+  ngOnInit(): void {
+
+  }
 
 }
